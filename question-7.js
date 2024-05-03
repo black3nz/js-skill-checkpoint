@@ -11,3 +11,5 @@ const secondProductList = [
 ];
 
 // เริ่มเขียนโค้ดตรงนี้
+const newProductlist = [...firstProductList, ...secondProductList];
+console.log(newProductlist);
